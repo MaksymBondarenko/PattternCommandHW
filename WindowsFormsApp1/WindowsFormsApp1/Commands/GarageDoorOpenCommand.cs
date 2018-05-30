@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WindowsFormsApp1.Devices;
 
 namespace WindowsFormsApp1.Commands
 {
@@ -18,6 +19,7 @@ namespace WindowsFormsApp1.Commands
             garageDoor.Stop();
             garageDoor.On();
             garageDoor.LightOn();
+            
         }
 
         public void Undo()
